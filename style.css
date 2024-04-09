@@ -1,0 +1,39 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+
+.title {
+    width: 100%;
+    max-width: 600px;
+    margin: 2em;
+}
+
+.cat-img {
+    flex-grow: 1; /*剩餘空間全部分成1分*/
+    height: 100%;
+    width: 100%;
+    max-width: 600px;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 3px;    /*文字邊框*/
+    -webkit-text-stroke-color: black;  /*文字邊框*/
+    background-image: url("img/p.png");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
